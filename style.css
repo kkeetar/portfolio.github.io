@@ -1,0 +1,38 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+.navbar{
+
+    background-color: rgb(0, 0, 0, 0.2);
+    z-index: 3;
+}
+.nav-link:hover{
+    color: #ffc311 !important;
+}
+section{
+    height: 100vh;
+}
+.home-container{
+    background-image: url("https://cdn.pixabay.com/photo/2015/09/23/08/16/thunder-953118_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-container::after{
+    content: '';
+    position: absolute;
+    top:0;
+    width:100% ;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.home-container *{
+
+    z-index: 1;
+
+}
+.progress-bar{
+    background-color: rgb(255, 162, 0);
+}
